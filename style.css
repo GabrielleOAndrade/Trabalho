@@ -1,4 +1,47 @@
+<<<<<<< HEAD
 .p {
     color: rgb(188, 89, 89) 
     font-size:8px;
 }
+=======
+*{ margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 75vw;
+    margin: 0 auto;
+}
+
+.box {
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#foto {
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+}
+
+.job { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 8px;
+    width: 30%;
+    height: 150px;
+    background-image: url(image/fundo.jpg);
+
+}
+
+
+
+
+>>>>>>> da34db505fb1fb1f2eb4ca0be42913a5ffcb36c8
